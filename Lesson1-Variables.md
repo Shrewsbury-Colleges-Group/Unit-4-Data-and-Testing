@@ -1,6 +1,6 @@
 [🏠 Home](index.md)
 
-# C Programming Language 
+# Variables & Data Types 
 
 ## Integers
 
