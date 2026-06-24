@@ -1,4 +1,4 @@
-[🏠 Home](index.html)
+[🏠 Home](index.md)
 
 # C Programming Language 
 
