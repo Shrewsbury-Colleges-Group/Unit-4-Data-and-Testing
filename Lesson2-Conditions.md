@@ -53,6 +53,7 @@ void main (void)
 	{
 	printf (“a is not equal to 0\n”);
 	}
+}
 ```
 ## Looping 
 The if statement is useful for making a single decision, but what if you want to do something repeatedly until a test is true or false? We use a while loop for this, and here’s an example:
