@@ -60,3 +60,5 @@ If you change c to a float, and change the final %d to %f, you’ll find it give
 C obeys the common rules for operator precedence – 
 so a = a + 2 * 3 evaluates the multiply first and then adds the result, 6, to a. 
 You can use round brackets to change precedence – a = (a + 2) * 3  gives 3a + 6
+
+## Task
