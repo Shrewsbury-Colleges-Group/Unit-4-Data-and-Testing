@@ -2,6 +2,7 @@
 
 ## Integers
 
+\\\c
 #include <stdio.h>
 void main (void)
 {
@@ -12,6 +13,7 @@ void main (void)
   c = a + b;
   printf ("The sum of adding %d and %d is %d\n", a, b, c);
 }
+\\\
 
 The top three lines inside the main function here are declarations. They tell the compiler that we would like to use variables called a, b and c respectively, and that each one is of type int, i.e. an integer. In the second line, we see an example of an initialisation at the same time as a declaration: this stores an initial value of 3 in the variable b. Note that the values of a and c at this point are undefined; you might assume that a variable which hasn’t had a value stored in it is always 0, but that isn’t the case in C. Before reading the value from a variable or using it in a calculation, you must store a value in it; reading a variable before initialising it is a common error in C.
 
