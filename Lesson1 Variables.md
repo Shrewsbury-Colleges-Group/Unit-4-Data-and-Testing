@@ -1,5 +1,7 @@
-C Programming Language 
-Integers
+# C Programming Language 
+
+## Integers
+
 #include <stdio.h>
 void main (void)
 {
