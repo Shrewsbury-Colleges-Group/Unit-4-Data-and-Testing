@@ -1,7 +1,9 @@
-C Programming Language
+# C Programming Language
 
-Integers
-#include <stdio.h>
+# Lesson 1 Variables and Data Types
+
+##Integers
+include<stdio.h>
 void main (void)
 {
   int a;
