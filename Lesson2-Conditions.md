@@ -18,7 +18,7 @@ void main (void)
 ```
 Here, the keyword if is followed by a test enclosed in round brackets, in this case (a == 0). If the test evaluates as true, the operations enclosed by the curly brackets after the test are executed. This example also shows the use of an else clause. At the end of the curly brackets around the operations which you want to execute if the test is true, there’s an else followed by another set of curly brackets; these contain the operations you want to execute if the original test evaluated as false. Try compiling the code above, and change the value with which a is initialised to make sure it does what you expect.
 
-##= or ==
+## = or ==
 
 That’s all fine, but what’s this a == 0 all about? Surely if we want to know whether a is equal to 0, we just put a = 0. Why the two equals signs? Well, try replacing the double equals sign with a single equals and see what happens.
 
@@ -54,7 +54,7 @@ void main (void)
 	      printf (“a is not equal to 0\n”);
 	}
 ```
-##Looping 
+## Looping 
 The if statement is useful for making a single decision, but what if you want to do something repeatedly until a test is true or false? We use a while loop for this, and here’s an example:
 ```c
 #include <stdio.h>
@@ -94,6 +94,8 @@ while (a < 5);
 ```
 The keyword do now goes before the curly bracket, and the while and test go after the closing curly bracket. When this runs, the code in the loop always executes once before the test; you can test this by running both the loop examples above with a initialised to 5 rather than 0, and seeing how the behaviour differs.
 
-##Note:
+## Note:
 Unlike the test in an if statement or a while loop, you need to put a semicolon after the test in a do while loop. This indicates the end of the loop code; in a while loop, the loop code doesn't end until the last statement inside the curly brackets.
+
+## Task
 
