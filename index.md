@@ -1,6 +1,6 @@
 # C Programming Language
 
-[Lesson 1: Variables](lesson1-variables.md)
+[Lesson 1: Variables](Lesson1-Variables.md)
 
 ## Lesson 2 
 
