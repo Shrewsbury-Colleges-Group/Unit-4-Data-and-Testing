@@ -39,22 +39,12 @@ So == is the test to see if a value is equal to another one. There are other use
 You can combine tests with logical operators. The symbol && is a Boolean AND (i.e. test whether both sides are true), and || is Boolean OR (i.e. test if either side is true). So, to execute code only if both a and b are 0, you would use if (a == 0 && b == 0). To check if either a or b is 0, you use if (a == 0 || b == 0). 
 
 Similarly, you can use the operator ! as a Boolean NOT to invert the result of a test, so if (!(a == 0)) is the same as if (a != 0).
-```c
-#include <stdio.h>
-void main (void)
-{
-	int a = 0;
-	if (a == 0)
-	{
-	printf (“a is equal to 0\n”);
-	}
 
 	else
 	{
 	printf (“a is not equal to 0\n”);
 	}
 }
-```
 ## Looping 
 The if statement is useful for making a single decision, but what if you want to do something repeatedly until a test is true or false? We use a while loop for this, and here’s an example:
 ```c
