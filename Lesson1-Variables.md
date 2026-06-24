@@ -1,3 +1,5 @@
+[🏠 Home](index.md
+
 # C Programming Language 
 
 ## Integers
@@ -64,3 +66,5 @@ so a = a + 2 * 3 evaluates the multiply first and then adds the result, 6, to a.
 You can use round brackets to change precedence – a = (a + 2) * 3  gives 3a + 6
 
 ## Task
+
+[⬅ Lesson 1](Lesson1-Variables.md) | [Next ➡ Lesson 2](Lesson2-Floats.md)
