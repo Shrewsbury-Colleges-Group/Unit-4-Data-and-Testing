@@ -3,15 +3,15 @@
 
 ## Overview
 
-This unit introduces learners to the fundamental concepts of **data handling, programming, and testing** through a practical, real-world project. Students will develop their understanding of how data is collected, processed, and validated within a computing system.
+This unit introduces you to the fundamental concepts of **data handling, programming, and testing** through a practical, real-world project. Developing your understanding of how data is collected, processed, and validated within a computing system.
 
-The unit is centred around a hands-on assignment where learners design and build a **temperature monitoring system using an Arduino**. This project allows students to apply programming skills in a meaningful context while exploring how data is generated from sensors and used within a system.
+The unit is centred around a hands-on assignment where you design and build a **temperature monitoring system using an Arduino**. This project allows you to apply programming skills in a meaningful context while exploring how data is generated from sensors and used within a system.
 
 ---
 
 ## Key Learning Areas
 
-Throughout this unit, learners will:
+Throughout this unit, you will:
 
 - Understand how data is represented and used in computing systems  
 - Learn how to declare and use variables in programming (C/Arduino)  
@@ -26,7 +26,7 @@ Throughout this unit, learners will:
 
 ### Project Brief
 
-Students will design and build a system that:
+To design and build a system that:
 
 - Reads temperature data from a sensor  
 - Stores and processes the data using variables  
@@ -46,7 +46,7 @@ Students will design and build a system that:
 
 ## Expected Outcomes
 
-By the end of this unit, learners should be able to:
+By the end of this unit, you should be able to:
 
 - Write simple programs using variables and calculations  
 - Correctly handle and display numerical data  
@@ -56,8 +56,6 @@ By the end of this unit, learners should be able to:
 ---
 
 ## Extension Opportunities
-
-More advanced learners may:
 
 - Add alerts for high/low temperatures  
 - Store temperature data over time  
@@ -72,7 +70,7 @@ This repository contains:
 
 - Lesson materials (Markdown web pages)  
 - Example code  
-- Student tasks and challenges  
+- Tasks and challenges  
 - Project guidance for the Arduino build  
 
 ---
