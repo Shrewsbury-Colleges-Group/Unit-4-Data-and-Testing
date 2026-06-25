@@ -110,4 +110,4 @@ Include:
 •	Correct conditions
 •	Clear output messages
 
-[⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3](Lesson3-Loops.md)
+[⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3](Lesson3-Functions.md)
