@@ -16,7 +16,7 @@ void main (void)
   }
 }
 ```
-Here, the keyword if is followed by a test enclosed in round brackets, in this case (a == 0). If the test evaluates as true, the operations enclosed by the curly brackets after the test are executed. This example also shows the use of an else clause. At the end of the curly brackets around the operations which you want to execute if the test is true, there’s an else followed by another set of curly brackets; these contain the operations you want to execute if the original test evaluated as false. Try compiling the code above, and change the value with which a is initialised to make sure it does what you expect.
+Here, the keyword **if** is followed by a test enclosed in round brackets, in this case **(a == 0)**. If the test evaluates as true, the operations enclosed by the curly brackets after the test are executed. This example also shows the use of an else clause. At the end of the curly brackets around the operations which you want to execute if the test is true, there’s an else followed by another set of curly brackets; these contain the operations you want to execute if the original test evaluated as false. Try compiling the code above, and change the value with which a is initialised to make sure it does what you expect.
 
 ## = or ==
 
