@@ -12,5 +12,5 @@
 
 ## Lesson 4
 
-[Lesson 4: User Input ](Lesson4-input.md)
+[Lesson 4: User Input ](Lesson4-Input.md)
 
