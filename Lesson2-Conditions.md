@@ -110,4 +110,43 @@ Include:
 •	Correct conditions
 •	Clear output messages
 
+# Arduino Mini Project Button Input
+
+## How to wire:
+•	Button → Pin 2
+•	LED → Pin 13
+•	Resistor → between button and GND
+•	5V → button
+```c
+int buttonPin = 2;
+int ledPin = 13;
+int buttonState = 0;
+
+void setup() {
+  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+# Task 1
+Explain the difference between INPUT and OUTPUT.
+
+## Task 2
+Modify the code so the LED turns ON when the button is NOT pressed.
+
+## Task 3
+Add a second LED that turns on when the button is pressed.
+
+## Challenge
+Make the button act like a toggle (press once = ON, press again = OFF).
+
 [⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3](Lesson3-Functions.md)
