@@ -2,7 +2,7 @@
 
 A function definition consists of a return type, a function name, and a list of arguments enclosed in round brackets
 
-images/functions.png 
+![Functions](images/functions.png)
 
 Up until now, all the examples we’ve looked at have had one single function, main, with all the code in it. This is perfectly valid for small, simple programs, but it’s not really practical once you get more than a few tens of lines, and it’s a waste of space if you need to do the same thing more than once. Splitting code up into separate functions makes it more readable and enables easy reuse. We’ve already seen functions used; the main function is a standard C function, albeit with a special name. We’ve also seen the printf function called by our examples. So how do we create and use a function of our own? Here’s an example:
 ```c
