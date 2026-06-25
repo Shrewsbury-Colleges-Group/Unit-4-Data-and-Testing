@@ -58,7 +58,7 @@ int z = sum (5, y);
 ## Returning Values
 A function can return a single value, or no value at all. If you define the function as returning void, there’s no need to use a return statement in it, but you’ll get an error if you don’t include a return of the correct type in a non-void function.
 
-![Return Values](returnvalues.png)
+![Return Values](images/returnvalues.png)
 
 
 
