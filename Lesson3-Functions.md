@@ -143,7 +143,9 @@ But in larger files, when multiple functions call multiple other functions, this
 
 Note the semicolon at the end! Function declarations are included at the top of the file; when the compiler finds a function declaration, it knows that at some point a function with this name, arguments, and return type will be defined, so it then knows how to handle a call to it, even if it hasn’t yet seen the definition itself.
 
+## Task
 
+[⬅ Lesson 2](Lesson2-Conditions.md) | [🏠 Home](index.md) | [Next ➡ Lesson 4](Lesson4-Input.md)
 
 
 
