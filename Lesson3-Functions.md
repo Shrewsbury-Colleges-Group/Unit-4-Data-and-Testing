@@ -1,1 +1,3 @@
 # Functions
+
+![Function](functions.png)
