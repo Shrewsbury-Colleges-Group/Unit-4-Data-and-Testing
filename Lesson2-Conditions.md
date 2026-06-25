@@ -113,10 +113,11 @@ Include:
 # Arduino Mini Project Button Input
 
 ## How to wire:
-•	Button → Pin 2
-•	LED → Pin 13
-•	Resistor → between button and GND
-•	5V → button
+
+- Button → Pin 2  
+- LED → Pin 13  
+- Resistor → between button and GND  
+- 5V → button  
 ```c
 int buttonPin = 2;
 int ledPin = 13;
