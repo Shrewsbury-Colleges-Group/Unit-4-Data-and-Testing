@@ -73,6 +73,30 @@ o	y = 4.3
 
 What format specifier should you use?
 
+# Arduino Project LED Blink
+
+## Objective
+Understand outputs and timing.
+
+## Code
+```c
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+}
+```
+## Task
+Change the delay to control speed.
+
+## Challenge
+Make it flash Morse code.
+
 [🏠 Home](index.md) |  [Next ➡ Lesson 2](Lesson2-Conditions.md)
 
 
