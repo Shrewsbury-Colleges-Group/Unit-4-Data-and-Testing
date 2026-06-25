@@ -80,7 +80,7 @@ while (a < 5);
 ```
 The keyword do now goes before the curly bracket, and the while and test go after the closing curly bracket. When this runs, the code in the loop always executes once before the test; you can test this by running both the loop examples above with a initialised to 5 rather than 0, and seeing how the behaviour differs.
 
-![Loop](loop.png)
+![Loop](images/loop.png)
 
 ## Note:
 Unlike the test in an if statement or a while loop, you need to put a semicolon after the test in a do while loop. This indicates the end of the loop code; in a while loop, the loop code doesn't end until the last statement inside the curly brackets.
