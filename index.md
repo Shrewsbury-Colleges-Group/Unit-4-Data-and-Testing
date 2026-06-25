@@ -8,9 +8,9 @@
 
 ## Lesson 3 
 
-[Lesson 3: Loops](Lesson3-Loops.md)
+[Lesson 3: Loops](Lesson3-Functions.md)
 
 ## Lesson 4
 
-[Lesson 4: Functions](Lesson4-Functions.md)
+[Lesson 4: User Input ](Lesson4-input.md)
 
