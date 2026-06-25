@@ -60,5 +60,90 @@ A function can return a single value, or no value at all. If you define the func
 
 ![Return Values](images/returnvalues.png)
 
+The sum function returns an integer, so we set an integer variable equal to it. The arguments we supply to the function are inside round brackets, and in the same order as in the function definition; so in this case, a is 5, and b is the value of y. 
+
+Can you return more than one result from a function? You can only return one value, but you can also use pointers to pass multiple items of data back to the calling function. Consider this example:
+```c
+#include <stdio.h>
+int sum_and_diff (int a, int b, int *res)
+{
+int sum;
+  sum = a + b;
+  *res = a – b;
+return sum;
+}
+void main (void)
+{
+int b = 2;
+int diff;
+  printf ("The sum of 5 and %d is %d\n", b,  
+    sum_and_diff (5, b, &diff));
+  printf ("The difference of 5 and %d is %d\n", b, diff);
+}
+```
+
+We’ve modified the sum function to calculate both the sum and the difference of the arguments. The sum is returned as before, but we’re also passing the difference back using a pointer. Remember that the arguments to a function are local variables; even if you change one in the function, it has no effect on the value passed by the calling function. This is why pointers are useful; by passing a pointer, the function doesn’t change the value of the pointer itself, but it can change the value in the variable to which it’s pointing. 
+
+So we call the function with the same two arguments as before, but we add a third one, a pointer to the variable where we want to write the difference calculated by the function. In the function, we have this line:
+
+## *res = a – b;
+
+The difference is written to the variable to which res is a pointer. In the main function, we call the sum_and_diff function like this:
+
+## sum_and_diff (5, b, &diff)
+
+We provide the address of the integer diff as the pointer argument to the sum_and_diff function; when the difference is calculated, it’s written into the variable diff in the main function.
+
+## Modifying Arguments
+Arguments are local variables within a function. If you want a function to modify the arguments you give it, make each argument you want to modify a pointer to a variable; you can then read the value pointed to within the function, and write the changed value back to the same pointer.
+
+![Difference](images/difference.png)
+
+By using a pointer as one argument, the sum_and_diff function can return both the sum and difference of the arguments
+
+## Order matters 
+One thing to bear in mind when defining functions is that the compiler reads files from top to bottom, and you need to tell it about a function before you can use it. In the examples above, this is automatic, as the definition of the sum and sum_and_diff functions is before the first call to them in main.
+
+![Sum & Difference](images/sum&diff.png)
+
+A function that returns a value can be used anywhere a variable of that type is expected.
+In this code, sum_and_diff(5, b, &diff) returns an integer (the sum), so it can be used directly inside printf as if it were a normal integer variable.
+
+This function does two things:
+•	Returns the sum (a + b)
+•	Stores the difference (a - b) in *res
+
+A function call can be used like a value if it returns something.
+
+## Step-by-step what happens:
+1.	sum_and_diff(5, b, &diff) is called
+2.	Inside the function:
+o	sum = 5 + b → returned
+o	diff = 5 - b → stored via pointer
+3.	The returned value (the sum) goes straight into printf
+
+This behaves like an integer value
+
+sum_and_diff(5, b, &diff)
+
+instead of doing this:
+int result = sum_and_diff(5, b, &diff);
+printf("The sum is %d\n", result);
+
+it does:
+printf("The sum is %d\n", sum_and_diff(5, b, &diff));
+
+Function call = value (if it returns something) 
+Can use it directly inside printf 
+Pointer lets you return extra values 
+
+But in larger files, when multiple functions call multiple other functions, this gets complicated; it’s not always easy to make sure the function definitions are all in the right order. To avoid this, C allows you to declare functions before they are used. A function declaration is just the definition of the function, minus the function code within the curly brackets. So for the sum_and_diff function, the declaration would be:
+
+## int sum_and_diff (int a, int b, int *res);
+
+Note the semicolon at the end! Function declarations are included at the top of the file; when the compiler finds a function declaration, it knows that at some point a function with this name, arguments, and return type will be defined, so it then knows how to handle a call to it, even if it hasn’t yet seen the definition itself.
+
+
+
 
 
