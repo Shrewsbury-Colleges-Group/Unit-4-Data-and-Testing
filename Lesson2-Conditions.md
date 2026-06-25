@@ -24,11 +24,11 @@ That’s all fine, but what’s this a == 0 all about? Surely if we want to know
 
 This is a very important aspect of C syntax, and a common source of bugs. The equals sign is used for two different things: one is to assign a value to a variable, whereas the other is to test whether a variable is equal to a value. A single equals sign (=) assigns a variable; a double equals sign (==) tests a variable. So the statement…
 
-##if (a == 0)
+## if (a == 0)
 
 …tests to see if a is equal to 0. If it is, then the test evaluates as true, and the code immediately after the if is executed. But the statement…
 
-##if (a = 0)
+## if (a = 0)
 
 …doesn’t compare a against 0 at all: it just sets a to 0. So how does the compiler decide what to do next? In this case, it just looks at the value of what’s in the brackets; you’ve set a to 0, so the value inside the brackets is 0. 
 
@@ -40,7 +40,7 @@ You can combine tests with logical operators. The symbol && is a Boolean AND (i.
 
 Similarly, you can use the operator ! as a Boolean NOT to invert the result of a test, so if (!(a == 0)) is the same as if (a != 0).
 
-Looping 
+## Looping 
 The if statement is useful for making a single decision, but what if you want to do something repeatedly until a test is true or false? We use a while loop for this, and here’s an example:
 ```c
 #include <stdio.h>
@@ -80,10 +80,10 @@ while (a < 5);
 ```
 The keyword do now goes before the curly bracket, and the while and test go after the closing curly bracket. When this runs, the code in the loop always executes once before the test; you can test this by running both the loop examples above with a initialised to 5 rather than 0, and seeing how the behaviour differs.
 
-##Note:
+## Note:
 Unlike the test in an if statement or a while loop, you need to put a semicolon after the test in a do while loop. This indicates the end of the loop code; in a while loop, the loop code doesn't end until the last statement inside the curly brackets.
 
-##Task: Multiple Conditions
+## Task: Multiple Conditions
 Objective: Extend logic
 Instructions:
 Write a program that outputs:
@@ -95,7 +95,7 @@ Use:
 •	else if
 •	else
 
-##Task: Apply full logic
+## Task: Apply full logic
 Scenario:
 You are designing a temperature monitoring system
 Write a program that:
