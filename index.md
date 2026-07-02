@@ -18,4 +18,4 @@
 
 ## Lesson 5
 
-[Lesson 5: User Input ](Lesson5-Input.md)
+[Lesson 5: User Input ](Lesson5-userInput.md)
