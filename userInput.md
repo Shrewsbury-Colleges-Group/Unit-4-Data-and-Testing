@@ -1,6 +1,6 @@
 # User Input
 
-![Input](images/input1.png)
+![Input & Output](images/input1.png)
 
 To print a program output to the terminal, the program needs to interact with the user, this needs to be a two-way process. This lesson looks at how we can read and interpret input that the user enters in the terminal. We’ve seen the **printf** function used a lot in previous chapters; it’s the standard way of writing formatted text output from a program to the console, the command line from which you run the program. But what if you want to get input from the user? How do we read what the user types into the console? 
 
@@ -79,7 +79,7 @@ return 0;
 ```
 Try running this as before, just by typing its name. Then try typing other things after the name on the command line and see what the program prints.
 
-IMAGE
+![Input Arguments](images/input2.png)
 
 The argc and argv arguments to the main function can be used to access parameters typed on the command line when the program is run
 
@@ -109,7 +109,8 @@ Note that we use ***argv[2]** to get the first character of the second parameter
 
 Make sure you separate the arguments from the operator with spaces so they’re identified as separate parameters; **<program> 2 + 2** rather than **<program> 2+2**
 
-IMAGE
+![Calculator Output](images/input3.png)
+
 The calculator reads the two values and the operator from the argv array and prints the result
 
 ## Checking return values
