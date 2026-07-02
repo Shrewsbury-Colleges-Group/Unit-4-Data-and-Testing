@@ -12,5 +12,8 @@
 
 ## Lesson 4
 
-[Lesson 4: User Input ](Lesson4-Input.md)
+[Lesson 4: Arrays ](Lesson4-Arrays.md)
 
+## Lesson 5
+
+[Lesson 5: User Input ](Lesson4-Input.md)
