@@ -1,5 +1,7 @@
 # C Programming Language
 
+## Lesson 1
+
 [Lesson 1: Variables & Data Types](Lesson1-Variables.md)
 
 ## Lesson 2 
