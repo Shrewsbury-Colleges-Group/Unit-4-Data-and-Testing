@@ -1,6 +1,8 @@
 # User Input
 
-In the previous chapter, we looked at how to print program output to the terminal, but in order to interact with the user, this needs to be a two-way process. This chapter looks at how we can read and interpret input that the user enters in the terminal. We’ve seen the **printf** function used a lot in previous chapters; it’s the standard way of writing formatted text output from a program to the console, the command line from which you run the program. But what if you want to get input from the user? How do we read what the user types into the console? 
+![Input](images/input1.png)
+
+To print a program output to the terminal, the program needs to interact with the user, this needs to be a two-way process. This lesson looks at how we can read and interpret input that the user enters in the terminal. We’ve seen the **printf** function used a lot in previous chapters; it’s the standard way of writing formatted text output from a program to the console, the command line from which you run the program. But what if you want to get input from the user? How do we read what the user types into the console? 
 
 In the last lesson, we looked at the **sscanf** function which reads values from a string. There’s an equivalent function called **scanf**, which reads values directly from the console, as in the following example
 
