@@ -38,7 +38,7 @@ int a[10] = { 0, 11, 22, 33, 44, 55, 66, 77, 88, 99 };
 ```
 But note that this only works when the array is first declared; once it exists, you can’t use this shortcut and will need to iterate through the array indices, setting each value in turn.
 
-[Array Pointer](images/array2.png)
+![Array Pointer](images/array2.png)
 
 Above Array elements are stored sequentially in memory, with the array name a pointer to the first element. Multi-dimensional array elements are stored with the elements with neighbouring values, in the rightmost index next to each other.
 
