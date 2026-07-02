@@ -1,6 +1,6 @@
 # Arrays
 
-![Array Diagram](images/arrays.png)
+![Array Diagram](images/array1.png)
 
 The variables we have looked at so far are all single numeric values. In this chapter, we’re going to look at how C handles lists of values, and that leads into using lists of letters to store and manipulate text strings. 
 
