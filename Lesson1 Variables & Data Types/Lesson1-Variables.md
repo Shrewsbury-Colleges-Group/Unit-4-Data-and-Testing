@@ -97,6 +97,6 @@ Change the delay to control speed.
 ## Challenge
 Make it flash Morse code.
 
-[🏠 Home](index.md) |  [Next ➡ Lesson 2](Lesson2-Conditions.md)
+[🏠 Home](/index.md) |  [Next ➡ Lesson 2](Lesson2-Conditions.md)
 
 
