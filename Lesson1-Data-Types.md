@@ -73,6 +73,8 @@ o	y = 4.3
 
 What format specifier should you use?
 
+## Resources
+[ASCII](Lesson1/ASCIITable.xlsx)
 
 [🏠 Home](/index.md) |  [Next ➡ Lesson 2](Lesson2-Conditions.md)
 
