@@ -112,4 +112,4 @@ Include:
 
 
 
-[⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3](Lesson3-Functions.md)
+[⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3]()
