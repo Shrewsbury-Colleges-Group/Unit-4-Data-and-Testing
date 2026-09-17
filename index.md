@@ -1,11 +1,11 @@
 # C Programming Language
 
+## IDE
+[Open Replit](https://replit.com/)
+
 ## Lesson 1
 
 [Lesson 1: Variables & Data Types](Lesson1-Data-Types.md)
-
-## IDE
-[Open Replit](https://replit.com/)
 
 ## Lesson 2 
 
