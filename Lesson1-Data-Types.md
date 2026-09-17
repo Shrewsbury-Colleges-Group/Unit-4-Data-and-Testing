@@ -75,7 +75,7 @@ What format specifier should you use?
 
 ## Resources
 [ASCII](Lesson1/ASCIITable.xlsx)
-[TaskFloatingPoint](Lesson1/TasksFloatingPoint.docx)
+[TaskFloatingPoint](Lesson1/TasksFloatingPoint1.docx)
 [LabTask2](Lesson1/LabTask2.c)
 [LabTask3](Lesson1/LabTask3.c)
 [LabTask1](Lesson1/LabTask1StarterCode.c)
