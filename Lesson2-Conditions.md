@@ -18,7 +18,7 @@ void main (void)
 ```
 Here, the keyword if is followed by a test enclosed in round brackets, in this case (a == 0). If the test evaluates as true, the operations enclosed by the curly brackets after the test are executed. This example also shows the use of an else clause. At the end of the curly brackets around the operations which you want to execute if the test is true, there’s an else followed by another set of curly brackets; these contain the operations you want to execute if the original test evaluated as false. Try compiling the code above, and change the value with which a is initialised to make sure it does what you expect.
 
-##= or ==
+## = or ==
 
 That’s all fine, but what’s this a == 0 all about? Surely if we want to know whether a is equal to 0, we just put a = 0. Why the two equals signs? Well, try replacing the double equals sign with a single equals and see what happens.
 
@@ -88,26 +88,26 @@ Unlike the test in an if statement or a while loop, you need to put a semicolon 
 ## Task: Multiple Conditions
 Objective: Extend logic
 Instructions:
-Write a program that outputs:
-•	"Cold" if temperature < 10
-•	"Warm" if temperature is between 10 and 25
-•	"Hot" if temperature > 25
-Use:
-•	if
-•	else if
-•	else
+Write a program that outputs:  
+•	"Cold" if temperature < 10  
+•	"Warm" if temperature is between 10 and 25  
+•	"Hot" if temperature > 25  
+Use:  
+•	if  
+•	else if  
+•	else  
 
 ## Task: Apply full logic
 Scenario:
 You are designing a temperature monitoring system
-Write a program that:
-•	Outputs: 
-o	"Cold" (< 10)
-o	"Normal" (10–25)
-o	"Hot" (25–35)
-o	"Danger" (> 35)
-Include:
-•	Correct conditions
+Write a program that:  
+•	Outputs:     
+o	"Cold" (< 10)  
+o	"Normal" (10–25)  
+o	"Hot" (25–35)  
+o	"Danger" (> 35)  
+Include:  
+•	Correct conditions  
 •	Clear output messages
 
 ## Resources
