@@ -5,7 +5,7 @@
 [Lesson 1: Variables & Data Types](Lesson1-Data-Types.md)
 
 ## IDE
-https://replit.com/
+[Open Replit](https://replit.com/)
 
 ## Lesson 2 
 
