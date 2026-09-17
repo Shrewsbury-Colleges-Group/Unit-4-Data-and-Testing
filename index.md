@@ -1,7 +1,8 @@
 # C Programming Language
 
-## IDE
+## IDE & Instructions to Run Code
 [Open Replit](https://replit.com/)
+[Lesson 1 Worksheet](Lesson1/Run-Shell.docx)
 
 ## Lesson 1
 
