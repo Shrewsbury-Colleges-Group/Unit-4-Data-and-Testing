@@ -75,6 +75,10 @@ What format specifier should you use?
 
 ## Resources
 [ASCII](Lesson1/ASCIITable.xlsx)
+[TaskFloatingPoint](TasksFloatingPoint.docx)
+[LabTask2](LabTask2.c)
+[LabTask3](LabTask3.c)
+[LabTask1](LabTask1StarterCode.c)
 
 [🏠 Home](/index.md) |  [Next ➡ Lesson 2](Lesson2-Conditions.md)
 
