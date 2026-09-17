@@ -13,12 +13,12 @@ https://replit.com/
 
 ## Lesson 3 
 
-[Lesson 3: Functions](Lesson3-Functions.md)
+[Lesson 3: Functions]()
 
 ## Lesson 4
 
-[Lesson 4: Arrays ](Lesson4-Arrays.md)
+[Lesson 4: Arrays ]()
 
 ## Lesson 5
 
-[Lesson 5: User Input ](Lesson5-userInput.md)
+[Lesson 5: User Input ])
