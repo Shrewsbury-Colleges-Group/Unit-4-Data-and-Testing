@@ -66,7 +66,7 @@ You can use round brackets to change precedence – a = (a + 2) * 3  gives 3a + 
 ## Task
 Task Using Floats
 1.	Change your variables to float
-2.	Use decimal numbers: 
+2.	Use decimal numbers:   
 x = 2.5
 y = 4.3
 3.	Output the result correctly
