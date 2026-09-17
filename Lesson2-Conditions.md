@@ -102,10 +102,10 @@ Scenario:
 You are designing a temperature monitoring system
 Write a program that:  
 •	Outputs:     
-o	"Cold" (< 10)  
-o	"Normal" (10–25)  
-o	"Hot" (25–35)  
-o	"Danger" (> 35)  
+-	"Cold" (< 10)  
+-	"Normal" (10–25)  
+-	"Hot" (25–35)  
+-	"Danger" (> 35)  
 Include:  
 •	Correct conditions  
 •	Clear output messages
