@@ -110,6 +110,8 @@ Include:
 •	Correct conditions
 •	Clear output messages
 
+## Resources
 
+[PowerPoint Slides](Lesson2/If-statements-Comparisons.pptx
 
 [⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3]()
