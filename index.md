@@ -15,7 +15,7 @@
 
 ## Lesson 3 
 
-[Lesson 3: Functions]()
+[Lesson 3: Functions](Lesson3-Functions.md)
 
 ## Lesson 4
 
