@@ -115,6 +115,7 @@ Include:
 ## Resources
 
 [PowerPoint Slides](Lesson2/If-statements-Comparisons.pptx)
+[PowerPoint Slides2](Lesson2/Selection-Comparison-Operators.pptx)
 [Worksheet ](Lesson2/Tasks-operators.docx)
 
 [⬅ Lesson 1](Lesson1-Variables.md) | [🏠 Home](index.md) | [Next ➡ Lesson 3]()
